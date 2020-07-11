@@ -16,7 +16,10 @@ class binarysearch {
             }
             return -1;
        }
-    
+    int rec_bin(int arr[],int target,int low,int high){
+        
+
+    }
     public static void main(String[] args) {
         binarysearch ob = new binarysearch();
         int arr[] = {1,2,3,4,5};
