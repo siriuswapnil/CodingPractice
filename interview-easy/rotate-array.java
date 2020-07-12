@@ -1,5 +1,8 @@
 class Solution {
-    // brute force solution using extra space . very bad results
+    // brute force solution using extra space . very bad results    
+
+    //O(n*k) runtime complexity
+    //O(1) space complexity - no extra space used
     public void rotate(int[] nums, int k) {
         k%=nums.length;
         int temp,prev;
@@ -20,6 +23,8 @@ class Solution {
     //efficient solution using reverse:  
     //rotating the array k times, means k elements from the back end of the array come to the front
     // and k elements from the beginning come to the start.
+
+    //O(n) time complexity , O(1)space complexity
     public void rotate(int[] nums, int k) {
         k%=nums.length;
         reverse(nums,0,nums.length-1);
