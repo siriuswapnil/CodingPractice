@@ -2,7 +2,7 @@
 tags: [Coding]
 title: Strings
 created: '2020-07-18T18:29:37.120Z'
-modified: '2020-07-19T05:37:09.453Z'
+modified: '2020-07-19T06:51:19.851Z'
 ---
 
 # Strings
@@ -79,3 +79,12 @@ s1.lastIndexOf(s2);
   
   }
 ```
+
+### In Place Algorithms : That do not make use of any auxiliary data structures. However, minor one or two variables are allowed.
+
+
+### Constant Space Complexity 
+---
+Constant space means that the amount of space that your algorithm uses is independent of the input parameters. Say you are given an array of size n. If the amount of space your algorithm uses scales with n, then it's not constant. If your algorithm always uses a fixed amount of space (5 variables, an array of fixed size: 100, 300, 5000, etc..), you are golden.
+
+
